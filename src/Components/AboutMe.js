@@ -6,7 +6,7 @@ export const AboutMe = () => {
       </div>
       <div className="row">
         <div className="col-md-5 mb-5">
-          <img src="assets/my.png" alt="my" width="100%" />
+          <img src="assets/suman.png" alt="my" width="100%" />
         </div>
         <div className="col-md-7">
           <p>
