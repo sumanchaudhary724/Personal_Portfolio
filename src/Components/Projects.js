@@ -1,6 +1,8 @@
+import { Layout } from "./Layout";
+
 export const Projects = () => {
   return (
-    <>
+    <Layout>
       <div id="projects" className="projects py-5">
         <div className="container">
           <div className="title">
@@ -83,6 +85,6 @@ export const Projects = () => {
           </div>
         </div>
       </div>
-    </>
+    </Layout>
   );
 };
