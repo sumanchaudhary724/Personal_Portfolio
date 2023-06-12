@@ -4,6 +4,7 @@ export const ContactMe = () => {
       <div className="title">
         <span>Contact Me</span>
       </div>
+      y
       <div className="row fa-3x">
         <div className="col d-flex justify-content-around pb-4">
           <a href="tel:0409876789">
@@ -12,15 +13,13 @@ export const ContactMe = () => {
           <a href="mailto:yor@email.com">
             <i className="fa-solid fa-envelope"></i>
           </a>
-          <a href="">
-            {" "}
+          <a href="http://www.facebook.com">
             <i className="fa-brands fa-facebook"></i>
           </a>
-          <a href="">
-            {" "}
+          <a href="http://www.linkedin.com">
             <i className="fa-brands fa-linkedin"></i>
           </a>
-          <a href="">
+          <a href="http://sumanchaudhary.com">
             <i className="fa-brands fa-square-instagram"></i>
           </a>
         </div>
