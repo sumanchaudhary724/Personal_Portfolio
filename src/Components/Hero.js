@@ -18,10 +18,10 @@ export const Hero = () => {
       <div className="hero">
         <Navigation />
         <div className="container">
-          <div className="row mt-5 py-3">
-            <div className="col-md-6 mt-3 pb-3">
+          <div className="container_1 py-3">
+            <div className="col-md-6 mt-3 pb-3 container_1">
               <h1 className="text-1">Hi 👋 I'm</h1>
-              <div className="fs-1 fw-bolder mb-5 text-2">Suman Chaudhary</div>
+              <div className="fs-1 fw-bolder text-2">Suman Chaudhary</div>
               <div className="text-3">
                 And I'm a{" "}
                 <span className="typewriter-span">
@@ -35,15 +35,16 @@ export const Hero = () => {
                 </span>
               </div>
 
-              <div>
+              <div className="hero_btn">
                 <a href="#contact" className="btn btn-danger ml-2">
                   Hire Me
                 </a>
+
+                <br />
+                <Button variant="danger" onClick={handleDownloadCV}>
+                  Download CV
+                </Button>
               </div>
-              <br />
-              <Button variant="danger" onClick={handleDownloadCV}>
-                Download CV
-              </Button>
             </div>
           </div>
         </div>

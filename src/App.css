@@ -9,8 +9,30 @@
   font-family: "Ubuntu", sans-serif;
 }
 
+.container {
+  margin: 10px 10px;
+}
+.container_1 {
+  margin-top: 90px;
+  margin-left: 50px;
+}
+
+.hero div h1 {
+  font-weight: 700;
+}
+
+.hero_btn {
+  margin-top: 3rem;
+  display: flex;
+  gap: 1rem;
+}
 .navbar {
   background-color: #dc143c;
+}
+
+.navbar-brand,
+.navbar-nav .nav-link {
+  color: white;
 }
 
 /* title */
@@ -48,8 +70,8 @@
   font-size: 27px;
 }
 .text-2 {
-  font-size: 75px;
-  font-weight: 600;
+  font-size: 100px;
+  font-weight: 800;
   margin-left: -3px;
 }
 .text-3 {

@@ -22,15 +22,19 @@ export const Navigation = () => {
 
   return (
     <>
-      <Navbar variant="dark" className="navbar">
-        <div className="container">
-          <Navbar.Brand href="#about-me">Suman Chaudhary</Navbar.Brand>
-
-          <Nav className="ms-auto mb-2 mb-lg-0">
-            {menuItems.map((item) => (
-              <MenuItem key={item.href} href={item.href} label={item.label} />
-            ))}
-          </Nav>
+      <Navbar expand="md" className="navbar">
+        <div className="container" style={{ color: "white" }}>
+          <Navbar.Brand href="#about-me" style={{ color: "white" }}>
+            Suman Chaudhary
+          </Navbar.Brand>
+          <Navbar.Toggle aria-controls="navbarSupportedContent" />
+          <Navbar.Collapse id="navbarSupportedContent">
+            <Nav className="ms-auto mb-2 mb-lg-0">
+              {menuItems.map((item) => (
+                <MenuItem key={item.href} href={item.href} label={item.label} />
+              ))}
+            </Nav>
+          </Navbar.Collapse>
         </div>
       </Navbar>
     </>
