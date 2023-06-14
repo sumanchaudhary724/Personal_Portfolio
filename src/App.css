@@ -21,6 +21,10 @@
   font-weight: 700;
 }
 
+.btn {
+  background-color: #dc143c;
+}
+
 .hero_btn {
   margin-top: 3rem;
   display: flex;
@@ -79,7 +83,7 @@
   margin: 5px 0;
 }
 .text-3 span {
-  color: crimson;
+  color: rgb(220, 20, 60);
   font-weight: 500;
   display: "inline-block";
 }
@@ -102,4 +106,38 @@
   position: fixed;
   bottom: 125px;
   right: 20px;
+}
+
+/* Contact */
+.contact-page {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+form {
+  display: grid;
+  gap: 20px;
+}
+
+.form-group label {
+  display: block;
+  font-weight: bold;
+}
+
+.form-group input,
+.form-group textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+button[type="submit"] {
+  padding: 10px 20px;
+  background-color: rgb(220, 20, 60);
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
 }

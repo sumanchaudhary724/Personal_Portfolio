@@ -41,7 +41,11 @@ export const Hero = () => {
                 </a>
 
                 <br />
-                <Button variant="danger" onClick={handleDownloadCV}>
+                <Button
+                  variant="danger"
+                  className="btn"
+                  onClick={handleDownloadCV}
+                >
                   Download CV
                 </Button>
               </div>
