@@ -110,11 +110,16 @@
 
 /* Contact */
 .contact-page {
+  display: flex;
+  gap: 100px;
   max-width: 600px;
-  margin: 0 auto;
-  padding: 20px;
+  margin: 10px auto;
+  padding: 30px;
 }
 
+.contact-info div {
+  margin: auto;
+}
 form {
   display: grid;
   gap: 20px;
@@ -140,4 +145,12 @@ button[type="submit"] {
   border: none;
   border-radius: 5px;
   cursor: pointer;
+}
+
+.fa-react {
+  color: #299bca;
+}
+
+#contact {
+  padding: 50px;
 }
