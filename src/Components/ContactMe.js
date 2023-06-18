@@ -1,4 +1,4 @@
-import { Container, Row, Col } from "react-bootstrap";
+import { Container, Row, Col, Button } from "react-bootstrap";
 export const ContactMe = () => {
   return (
     <div id="contact" className="container contact rounded-5 py-2">
@@ -71,9 +71,9 @@ export const ContactMe = () => {
               <br />
               <Row>
                 <Col lg="12" className="form-group">
-                  <button className="btn ac_btn" type="submit">
-                    Send Message
-                  </button>
+                  <Button variant="danger" className="btn" type="submit">
+                    Send Messages
+                  </Button>
                 </Col>
               </Row>
             </form>
@@ -82,19 +82,21 @@ export const ContactMe = () => {
       </Container>
 
       <div className="row fa-3x">
-        <div className="col d-flex justify-content-around pb-4">
-          <a href="tel:0452382503">
-            <i className="fa-solid fa-mobile"></i>
-          </a>
-          <a href="mailto:sumanchaudhary724@gmail.com">
-            <i className="fa-solid fa-envelope"></i>
-          </a>
-          <a href="https://www.facebook.com/suman.chaudhary.359/">
-            <i className="fa-brands fa-facebook"></i>
-          </a>
-          <a href="https://www.linkedin.com/in/sumanchaudhary724/">
-            <i className="fa-brands fa-linkedin"></i>
-          </a>
+        <div className="col pb-4">
+          <div className="icon-container">
+            <a href="tel:0452382503">
+              <i className="fas fa-mobile-alt"></i>
+            </a>
+            <a href="mailto:sumanchaudhary724@gmail.com">
+              <i className="fas fa-envelope"></i>
+            </a>
+            <a href="https://www.facebook.com/suman.chaudhary.359/">
+              <i className="fab fa-facebook"></i>
+            </a>
+            <a href="https://www.linkedin.com/in/sumanchaudhary724/">
+              <i className="fab fa-linkedin"></i>
+            </a>
+          </div>
         </div>
       </div>
     </div>

@@ -1,3 +1,5 @@
+import { Slider } from "./Slider";
+
 export const Projects = () => {
   return (
     <>
@@ -83,6 +85,7 @@ export const Projects = () => {
           </div>
         </div>
       </div>
+      <Slider />
     </>
   );
 };
