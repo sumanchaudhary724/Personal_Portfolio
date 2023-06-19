@@ -183,3 +183,63 @@ button {
   display: block;
   width: 80%;
 }
+
+/* Cards */
+.card {
+  border: 1px solid #c40a0a;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  max-width: 300px;
+  margin: 16px;
+  padding: 16px;
+  transition: box-shadow 0.3s ease;
+  background-color: transparent;
+}
+
+.card:hover {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  background-color: #da1919;
+}
+
+.card img {
+  width: 100%;
+  height: auto;
+  border-radius: 4px;
+  margin-bottom: 16px;
+}
+
+.card-body {
+  text-align: center;
+}
+
+.card-title {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 8px;
+  color: #000000; /* Initial font color as black */
+  transition: color 0.3s ease; /* Adding transition for font color */
+}
+
+.card-description {
+  font-size: 14px;
+  color: #000000; /* Initial font color as black */
+  transition: color 0.3s ease; /* Adding transition for font color */
+}
+
+/* Additional Styling */
+.card:hover .card-body {
+  background-color: #da1919;
+  transition: background-color 3s ease;
+}
+
+.card:hover .card-title,
+.card:hover .card-description {
+  color: #ffffff; /* Changing font color to white on hover */
+}
+
+/* Responsive styles */
+@media (min-width: 768px) {
+  .card {
+    max-width: 400px;
+  }
+}

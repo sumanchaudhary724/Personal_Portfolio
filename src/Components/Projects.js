@@ -1,4 +1,26 @@
-import { Slider } from "./Slider";
+import React from "react";
+import slide_image_1 from "../assets/images/profile-1.jpg";
+import slide_image_2 from "../assets/images/profile-2.jpeg";
+import slide_image_3 from "../assets/images/profile-3.jpeg";
+function ProjectCard({ image, title, description }) {
+  return (
+    <div className="card">
+      <img src={image} alt={title} />
+      <div className="card-body">
+        <h3 className="card-title">{title}</h3>
+        <div>
+          <a href="" target="_blank">
+            <i className="fa-brands fa-square-github"></i>
+          </a>
+          <a href="" target="_blank">
+            <i className="fa-brands fa-chrome"></i>
+          </a>
+        </div>
+        <p className="card-description">{description}</p>
+      </div>
+    </div>
+  );
+}
 
 export const Projects = () => {
   return (
@@ -8,84 +30,28 @@ export const Projects = () => {
           <div className="title">
             <span>Projects</span>
           </div>
-          <div className="row mb-5">
-            <div className="col-md mb-3">
-              <img src="assets/aa.png" alt="project a" width="100%" />
-            </div>
-            <div className="col-md">
-              <div>
-                <h2>Portfolio Website</h2>
-                <div>
-                  <a href="" target="_blank">
-                    <i className="fa-brands fa-square-github"></i>
-                  </a>
-                  <a href="" target="_blank">
-                    <i className="fa-brands fa-chrome"></i>
-                  </a>
-                </div>
-                <p className="mt-2">Tech used: HTML5, CSS3</p>
-                <p>
-                  Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-                  Deleniti enim, corporis repellat tenetur voluptate dolorum
-                  eius id, temporibus maiores dolorem esse natus nobis sunt.
-                  Dolorem vitae ipsa repudiandae quasi temporibus.
-                </p>
-              </div>
-            </div>
-          </div>
-          <div className="row mb-5">
-            <div className="col-md mb-3 order-md-2">
-              <img src="assets/aa.png" alt="project a" width="100%" />
-            </div>
-            <div className="col-md">
-              <div>
-                <h2>Portfolio Website</h2>
-                <div>
-                  <a href="" target="_blank">
-                    <i className="fa-brands fa-square-github"></i>
-                  </a>
-                  <a href="" target="_blank">
-                    <i className="fa-brands fa-chrome"></i>
-                  </a>
-                </div>
-                <p className="mt-2">Tech used: HTML5, CSS3</p>
-                <p>
-                  Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-                  Deleniti enim, corporis repellat tenetur voluptate dolorum
-                  eius id, temporibus maiores dolorem esse natus nobis sunt.
-                  Dolorem vitae ipsa repudiandae quasi temporibus.
-                </p>
-              </div>
-            </div>
-          </div>
-          <div className="row mb-5">
-            <div className="col-md mb-3">
-              <img src="assets/aa.png" alt="project a" width="100%" />
-            </div>
-            <div className="col-md">
-              <div>
-                <h2>Portfolio Website</h2>
-                <div>
-                  <a href="" target="_blank">
-                    <i className="fa-brands fa-square-github"></i>
-                  </a>
-                  <a href="" target="_blank">
-                    <i className="fa-brands fa-chrome"></i>
-                  </a>
-                </div>
-                <p className="mt-2">Tech used: HTML5, CSS3</p>
-                <p>
-                  Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-                  Deleniti enim, corporis repellat tenetur voluptate dolorum
-                  eius id, temporibus maiores dolorem esse natus nobis sunt.
-                  Dolorem vitae ipsa repudiandae quasi temporibus.
-                </p>
-              </div>
-            </div>
+
+          <div className="d-flex flex-wrap justify-content-center">
+            <ProjectCard
+              image={slide_image_1}
+              title="Project 1"
+              description="Description of Project 1"
+            />
+
+            <ProjectCard
+              image={slide_image_2}
+              title="Project 2"
+              description="Description of Project 2"
+            />
+
+            <ProjectCard
+              image={slide_image_3}
+              title="Project 3"
+              description="Description of Project 3"
+            />
           </div>
         </div>
       </div>
-      <Slider />
     </>
   );
 };
