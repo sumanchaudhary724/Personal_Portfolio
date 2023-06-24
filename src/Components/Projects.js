@@ -9,11 +9,20 @@ function ProjectCard({ image, title, description }) {
       <div className="card-body">
         <h3 className="card-title">{title}</h3>
         <div>
-          <a href="" target="_blank">
-            <i className="fa-brands fa-square-github"></i>
+          <a
+            href="https://github.com/sumanchaudhary724/NotTODO_API"
+            target="_blank"
+          >
+            <i
+              className="fa-brands fa-square-github fa-lg"
+              style={{ marginRight: "8px" }}
+            ></i>
           </a>
-          <a href="" target="_blank">
-            <i className="fa-brands fa-chrome"></i>
+          <a href="https://fierce-fish-earmuffs.cyclic.app/" target="_blank">
+            <i
+              className="fa-brands fa-chrome fa-lg"
+              style={{ marginLeft: "8px" }}
+            ></i>
           </a>
         </div>
         <p className="card-description">{description}</p>

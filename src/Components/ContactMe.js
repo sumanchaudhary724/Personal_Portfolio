@@ -1,4 +1,5 @@
 import { Container, Row, Col, Button } from "react-bootstrap";
+
 export const ContactMe = () => {
   return (
     <div id="contact" className="container contact rounded-5 py-2">
@@ -72,7 +73,7 @@ export const ContactMe = () => {
               <Row>
                 <Col lg="12" className="form-group">
                   <Button variant="danger" className="btn" type="submit">
-                    Send Messages
+                    Send Message
                   </Button>
                 </Col>
               </Row>
