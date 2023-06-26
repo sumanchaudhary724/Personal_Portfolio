@@ -24,7 +24,7 @@ export const Hero = () => {
               <div className="fs-1 fw-bolder text-2">Suman Chaudhary</div>
               <div className="text-3">
                 And I'm a{" "}
-                <span className="typewriter-span">
+                <span className="text-3 typewriter-span">
                   <Typewriter
                     options={{
                       strings: ["Front-End Developer", "Web Developer"],

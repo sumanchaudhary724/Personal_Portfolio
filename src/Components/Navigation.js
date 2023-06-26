@@ -3,6 +3,10 @@ import { MenuItem } from "./MenuItem";
 export const Navigation = () => {
   const menuItems = [
     {
+      href: "#education",
+      label: "Education",
+    },
+    {
       href: "#skills",
       label: "Skills",
     },
