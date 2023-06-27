@@ -3,8 +3,10 @@ import React from "react";
 export const Education = () => {
   return (
     <section className="Education_Section" id="education">
-      <h2 className="title">Education Qualification</h2>
-      <div className="container d-flex flex-wrap justify-content-center">
+      <h2 className="title">
+        <span>Education Qualification</span>
+      </h2>
+      <div className="container" align="center">
         <div className="row ">
           <div className="col-sm-12 col-md-4">
             <div className="card">
