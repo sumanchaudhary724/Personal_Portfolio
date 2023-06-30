@@ -1,4 +1,5 @@
 import { Container, Row, Col, Button } from "react-bootstrap";
+import { IoIosSend } from "react-icons/io";
 
 export const ContactMe = () => {
   return (
@@ -73,7 +74,7 @@ export const ContactMe = () => {
               <Row>
                 <Col lg="12" className="form-group">
                   <Button variant="danger" className="btn" type="submit">
-                    Send Message
+                    <IoIosSend /> Send Message
                   </Button>
                 </Col>
               </Row>
