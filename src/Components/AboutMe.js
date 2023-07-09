@@ -7,7 +7,7 @@ export const AboutMe = () => {
   return (
     <section id="about-me" className="container mt-3 py-5">
       <div className="title">
-        <h2>About Me</h2>
+        <span>About Me</span>
       </div>
       <div className="row">
         <div className="col-md-5 mb-5">
