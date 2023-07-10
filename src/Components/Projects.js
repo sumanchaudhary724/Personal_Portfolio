@@ -1,7 +1,7 @@
 import React from "react";
 import slide_image_1 from "../assets/images/Calculator.jpg";
 import slide_image_2 from "../assets/images/NotTODO.jpg";
-import slide_image_3 from "../assets/images/profile-3.jpeg";
+import slide_image_3 from "../assets/images/ContactListIcon.jpg";
 
 const ProjectCard = ({
   image,
@@ -67,7 +67,28 @@ export const Projects = () => {
 
             <ProjectCard
               image={slide_image_3}
-              title="Project 3"
+              title="Contact List"
+              description="Contact list using Fetch API"
+              githubLink="https://github.com/sumanchaudhary724/ContactList"
+              projectLink="https://contact-list-bice.vercel.app/"
+            />
+            <ProjectCard
+              image={slide_image_3}
+              title="Parallax Demo"
+              description="Sample Page using parallax"
+              githubLink="https://github.com/sumanchaudhary724/Parallax-Web"
+              projectLink="https://parallax-web.vercel.app/"
+            />
+            <ProjectCard
+              image={slide_image_3}
+              title="Project 4"
+              description="Description of Project 3"
+              githubLink="https://github.com/your-github-repo-url"
+              projectLink="https://example.com/project-3"
+            />
+            <ProjectCard
+              image={slide_image_3}
+              title="Project 4"
               description="Description of Project 3"
               githubLink="https://github.com/your-github-repo-url"
               projectLink="https://example.com/project-3"
