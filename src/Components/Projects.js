@@ -2,6 +2,7 @@ import React from "react";
 import slide_image_1 from "../assets/images/Calculator.jpg";
 import slide_image_2 from "../assets/images/NotTODO.jpg";
 import slide_image_3 from "../assets/images/ContactListIcon.jpg";
+import slide_image_4 from "../assets/images/parallax";
 
 const ProjectCard = ({
   image,
@@ -73,7 +74,7 @@ export const Projects = () => {
               projectLink="https://contact-list-bice.vercel.app/"
             />
             <ProjectCard
-              image={slide_image_3}
+              image={slide_image_4}
               title="Parallax Demo"
               description="Sample Page using parallax"
               githubLink="https://github.com/sumanchaudhary724/Parallax-Web"
