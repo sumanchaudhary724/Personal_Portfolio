@@ -3,6 +3,7 @@ import slide_image_1 from "../assets/images/Calculator.jpg";
 import slide_image_2 from "../assets/images/NotTODO.jpg";
 import slide_image_3 from "../assets/images/ContactListIcon.jpg";
 import slide_image_4 from "../assets/images/parallax.jpg";
+import slide_image_5 from "../assets/images/library.jpg";
 
 const ProjectCard = ({
   image,
@@ -81,11 +82,11 @@ export const Projects = () => {
               projectLink="https://parallax-web.vercel.app/"
             />
             <ProjectCard
-              image={slide_image_3}
-              title="Project 4"
-              description="Description of Project 3"
-              githubLink="https://github.com/your-github-repo-url"
-              projectLink="https://example.com/project-3"
+              image={slide_image_5}
+              title="Library Management"
+              description="Library Management System using react for Front-end and Mongo for backend"
+              githubLink="https://github.com/sumanchaudhary724/Library_Management_Client"
+              projectLink="https://library-management-client-two.vercel.app/"
             />
             <ProjectCard
               image={slide_image_3}
