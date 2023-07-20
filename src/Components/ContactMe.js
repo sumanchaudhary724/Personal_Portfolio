@@ -1,7 +1,33 @@
 import { Container, Row, Col, Button } from "react-bootstrap";
 import { IoIosSend } from "react-icons/io";
+import React, { useRef, useState } from "react";
+import emailjs from "@emailjs/browser";
 
 export const ContactMe = () => {
+  const form = useRef();
+  const [submitted, setSubmitted] = useState(false);
+
+  const sendEmail = (e) => {
+    e.preventDefault();
+
+    emailjs
+      .sendForm(
+        "service_6rkbs1p",
+        "template_phf1ej4",
+        form.current,
+        "vwIyB3AEkRhXEwcYe"
+      )
+      .then(
+        (result) => {
+          console.log(result.text);
+          setSubmitted(true); // Update state to indicate successful form submission
+        },
+        (error) => {
+          console.log(error.text);
+        }
+      );
+  };
+
   return (
     <div id="contact" className="container contact rounded-5 py-2">
       <div className="title">
@@ -37,7 +63,11 @@ export const ContactMe = () => {
             </p>
           </Col>
           <Col lg="7" className="d-flex align-items-center">
-            <form className="contact__form w-100">
+            <form
+              ref={form}
+              onSubmit={sendEmail}
+              className="contact__form w-100"
+            >
               <Row>
                 <h3>Message Me</h3>
 
@@ -45,7 +75,7 @@ export const ContactMe = () => {
                   <input
                     className="form-control"
                     id="name"
-                    name="name"
+                    name="user_name"
                     placeholder="Name"
                     type="text"
                     required
@@ -55,7 +85,7 @@ export const ContactMe = () => {
                   <input
                     className="form-control rounded-0"
                     id="email"
-                    name="email"
+                    name="user_email"
                     placeholder="Email"
                     type="email"
                     required
@@ -81,6 +111,14 @@ export const ContactMe = () => {
             </form>
           </Col>
         </Row>
+        {submitted && ( // Render "Thank You" message when form is submitted successfully
+          <div className="row">
+            <div className="col-lg-7 offset-lg-5 text-center">
+              <h3>Thank You for Submitting!</h3>
+              <p>Your message has been sent successfully.</p>
+            </div>
+          </div>
+        )}
       </Container>
 
       <div className="row fa-3x">
