@@ -42,7 +42,7 @@ export const ContactMe = () => {
         </Row>
         <Row className="sec_sp">
           <Col lg="5" className="mb-5">
-            <h3 className="color_sec py-4">Get in touch</h3>
+            <h3 className="color_sec py-4">Get In Touch</h3>
             <p>
               <strong>Name:</strong> Suman Chaudhary
             </p>
