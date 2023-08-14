@@ -1,5 +1,6 @@
 import { Navbar, Nav } from "react-bootstrap";
 import { MenuItem } from "./MenuItem";
+import SoundBar from "./SoundBar";
 export const Navigation = () => {
   const menuItems = [
     {
@@ -30,6 +31,7 @@ export const Navigation = () => {
         <div className="container" style={{ color: "white" }}>
           <Navbar.Brand href="#about-me" style={{ color: "white" }}>
             Suman Chaudhary
+            <SoundBar />
           </Navbar.Brand>
           <Navbar.Toggle aria-controls="navbarSupportedContent" />
           <Navbar.Collapse id="navbarSupportedContent">
