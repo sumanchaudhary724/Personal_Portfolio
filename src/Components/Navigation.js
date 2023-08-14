@@ -28,10 +28,10 @@ export const Navigation = () => {
   return (
     <>
       <Navbar expand="md" className="navbar">
+        <SoundBar />
         <div className="container" style={{ color: "white" }}>
           <Navbar.Brand href="#about-me" style={{ color: "white" }}>
             Suman Chaudhary
-            <SoundBar />
           </Navbar.Brand>
           <Navbar.Toggle aria-controls="navbarSupportedContent" />
           <Navbar.Collapse id="navbarSupportedContent">
