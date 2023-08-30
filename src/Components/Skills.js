@@ -14,7 +14,10 @@ export const Skills = () => {
               <div>
                 <i className="fa-brands fa-css3-alt text-primary"></i> CSS
               </div>
-
+              <div>
+                <i className="fa-brands fa-square-js text-warning"></i>{" "}
+                JavaScript
+              </div>
               <div>
                 <i className="fa-brands fa-react"></i>React
               </div>
