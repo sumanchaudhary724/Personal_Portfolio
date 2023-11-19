@@ -4,6 +4,7 @@ import slide_image_2 from "../assets/images/NotTODO.jpg";
 import slide_image_3 from "../assets/images/ContactListIcon.jpg";
 import slide_image_4 from "../assets/images/parallax.jpg";
 import slide_image_5 from "../assets/images/library.jpg";
+import slide_image_6 from "../assets/images/mern_estate.jpg";
 
 const ProjectCard = ({
   image,
@@ -89,11 +90,11 @@ export const Projects = () => {
               projectLink="https://library-management-client-two.vercel.app/"
             />
             <ProjectCard
-              image={slide_image_3}
-              title="Project 4"
-              description="Description of Project 3"
-              githubLink="https://github.com/your-github-repo-url"
-              projectLink="https://example.com/project-3"
+              image={slide_image_6}
+              title="MERN Estate"
+              description="Marketplace for Estate. Customers can able to post house or apartments and able to see others post for sale and renting houses with offers"
+              githubLink="https://github.com/sumanchaudhary724/mern-estate"
+              projectLink="https://mern-estate-wh84.onrender.com/"
             />
           </div>
         </div>
