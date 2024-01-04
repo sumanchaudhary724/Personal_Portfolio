@@ -5,7 +5,7 @@ import slide_image_3 from "../assets/images/ContactListIcon.jpg";
 import slide_image_4 from "../assets/images/parallax.jpg";
 import slide_image_5 from "../assets/images/library.jpg";
 import slide_image_6 from "../assets/images/mern_estate.jpg";
-import slide_image_6 from "../assets/images/Next14App.jpg";
+import slide_image_7 from "../assets/images/Next14App.jpg";
 
 const ProjectCard = ({
   image,
