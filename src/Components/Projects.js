@@ -5,6 +5,7 @@ import slide_image_3 from "../assets/images/ContactListIcon.jpg";
 import slide_image_4 from "../assets/images/parallax.jpg";
 import slide_image_5 from "../assets/images/library.jpg";
 import slide_image_6 from "../assets/images/mern_estate.jpg";
+import slide_image_6 from "../assets/images/Next14App.jpg";
 
 const ProjectCard = ({
   image,
@@ -95,6 +96,13 @@ export const Projects = () => {
               description="Marketplace for Estate. Customers can able to post house or apartments and able to see others post for sale and renting houses with offers"
               githubLink="https://github.com/sumanchaudhary724/mern-estate"
               projectLink="https://mern-estate-wh84.onrender.com/"
+            />
+            <ProjectCard
+              image={slide_image_7}
+              title="EventMeet Next14 App"
+              description="Built on Next.js 14, the events application stands as a comprehensive, full-stack platform for managing events. It serves as a hub, spotlighting diverse events taking place globally. Featuring seamless payment processing through Stripe, you have the capability to purchase tickets for any event or even initiate and manage your own events."
+              githubLink="https://github.com/sumanchaudhary724/Eventmeet"
+              projectLink="https://eventmeet.vercel.app/"
             />
           </div>
         </div>
