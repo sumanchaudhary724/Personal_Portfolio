@@ -27,7 +27,11 @@ export const Hero = () => {
                 <span className="text-3 typewriter-span">
                   <Typewriter
                     options={{
-                      strings: ["Front-End Developer", "Web Developer"],
+                      strings: [
+                        "IT Support Engineer",
+                        "Front-End Developer",
+                        "Web Developer",
+                      ],
                       autoStart: true,
                       loop: true,
                     }}

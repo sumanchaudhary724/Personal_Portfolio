@@ -21,31 +21,56 @@ export const AboutMe = () => {
         <div className="col-md-7">
           <h3>Hello, I'm Suman.</h3>
           <p>
-            I am a creative and highly reliable IT graduate from Victoria
-            University, seeking an IT-related position with a focus on web and
-            mobile applications. With a strong passion for problem-solving and
-            coding, I strive to create exceptional websites based on clients'
-            technical and design specifications.
+            With over 2 years of dedicated experience as an IT Support
+            Specialist, I am committed to delivering outstanding technical
+            support and ensuring seamless technology experiences for end-users.
+            My passion for resolving complex technical challenges, coupled with
+            effective communication skills, enables me to provide exceptional IT
+            support services. I thrive in dynamic environments where I can
+            leverage my technical expertise and meticulous problem-solving
+            approach to enhance end-users' productivity and satisfaction.
           </p>
           <p>
-            During my time at Victoria University, I developed solid time
-            management and collaboration skills. I understand the importance of
-            working as part of a team, learning from others, and continuously
-            developing as a professional. My goal is to contribute to innovative
-            projects and deliver high-quality solutions.
+            I completed my Bachelor of Information Technology at Victoria
+            University and further enhanced my skills through the ACS
+            Professional Year Program. Alongside my technical abilities, I
+            possess excellent customer service skills, strong communication
+            capabilities, and effective problem-solving techniques. I am adept
+            at working both independently and collaboratively to achieve
+            organizational goals.
           </p>
           <p>Some key skills I possess include:</p>
           <ul>
-            <li>Proficiency in web and mobile application development</li>
-            <li>Strong problem-solving abilities</li>
-            <li>Excellent time management skills</li>
-            <li>Effective collaboration and teamwork</li>
+            <li>
+              Proficient in technical support methodologies including Remote
+              Desk Support, Troubleshooting, and Active Directory management.
+            </li>
+            <li>
+              Experienced in installing, configuring, and maintaining hardware,
+              software, and network equipment to meet client requirements.
+            </li>
+            <li>
+              Skilled in cloud technologies such as Office 365, Microsoft Azure,
+              AWS, and backup solutions including Windows Backup and Office365
+              Backup.
+            </li>
+            <li>
+              Knowledgeable in networking protocols including DHCP, DNS, TCP/IP,
+              as well as router and switch configurations.
+            </li>
+            <li>
+              Familiarity with ticketing systems such as OS Ticketing, Zendesk,
+              Freshdesk, and ServiceNow.
+            </li>
           </ul>
+
           <p>
-            I take pride in my work and always strive for excellence. Please
-            feel free to reach out to me through the contact information below
-            to discuss potential opportunities or to learn more about my
-            experience.
+            I am dedicated to continuously expanding my expertise in the latest
+            technologies and industry best practices to drive innovation and
+            efficiency in IT operations. If you are seeking a skilled and
+            customer-focused IT Support Engineer, I would welcome the
+            opportunity to discuss how my experience and qualifications align
+            with your organization's needs.
           </p>
           <div className="contact-info">
             <p>
