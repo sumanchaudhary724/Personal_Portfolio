@@ -51,7 +51,6 @@ export const Skills = () => {
               <div className="col-4 col-md-2">
                 <i className="fa-solid fa-ticket-alt text-info"></i> Ticketing
               </div>
-              {/* Additional icons can be added here */}
             </div>
           </div>
         </div>
