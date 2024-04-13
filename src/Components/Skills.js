@@ -35,7 +35,7 @@ export const Skills = () => {
                 System
               </div>
               <div className="col-4 col-md-2 icon-container">
-                <i className="fa-brands fa-cloud text-primary"></i> Cloud
+                <i className="fa-solid fa-cloud text-primary"></i> Cloud
                 Technologies
               </div>
               <div className="col-4 col-md-2 icon-container">
