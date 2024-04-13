@@ -282,3 +282,10 @@ button {
 #preloader-none {
   opacity: 0;
 }
+
+.icon-container {
+  transition: transform 0.3s ease;
+}
+.icon-container:hover {
+  transform: scale(1.1);
+}
