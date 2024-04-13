@@ -7,48 +7,48 @@ export const Skills = () => {
             <div className="title">
               <span>Skills</span>
             </div>
-            <div className="icons">
-              <div>
+            <div className="icons row">
+              <div className="col-sm-6 col-md-4">
                 <i className="fa-brands fa-html5 text-danger"></i> HTML
               </div>
-              <div>
+              <div className="col-sm-6 col-md-4">
                 <i className="fa-brands fa-css3-alt text-primary"></i> CSS
               </div>
-              <div>
+              <div className="col-sm-6 col-md-4">
                 <i className="fa-brands fa-square-js text-warning"></i>{" "}
                 JavaScript
               </div>
-              <div>
-                <i className="fa-brands fa-react"></i>React
+              <div className="col-sm-6 col-md-4">
+                <i className="fa-brands fa-react"></i> React
               </div>
-              <div>
+              <div className="col-sm-6 col-md-4">
                 <i className="fa-brands fa-figma text-info"></i> Figma
               </div>
-              <div>
+              <div className="col-sm-6 col-md-4">
                 <i className="fa-solid fa-laptop text-success"></i> Hardware &
                 Network
               </div>
-              <div>
+              <div className="col-sm-6 col-md-4">
                 <i className="fa-brands fa-windows text-info"></i> Operating
                 System
               </div>
-              <div>
+              <div className="col-sm-6 col-md-4">
                 <i className="fa-brands fa-cloud text-primary"></i> Cloud
                 Technologies
               </div>
-              <div>
+              <div className="col-sm-6 col-md-4">
                 <i className="fa-solid fa-database text-warning"></i> Backup
                 Technologies
               </div>
-              <div>
+              <div className="col-sm-6 col-md-4">
                 <i className="fa-solid fa-briefcase text-danger"></i>{" "}
                 Applications
               </div>
-              <div>
+              <div className="col-sm-6 col-md-4">
                 <i className="fa-solid fa-network-wired text-success"></i>{" "}
                 Networking
               </div>
-              <div>
+              <div className="col-sm-6 col-md-4">
                 <i className="fa-solid fa-ticket-alt text-info"></i> Ticketing
               </div>
             </div>
