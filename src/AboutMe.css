@@ -1,0 +1,51 @@
+.about-me-section {
+  background-color: #f8f9fa;
+  padding: 50px 20px;
+  border-radius: 15px;
+}
+
+.title h2 {
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.title-underline {
+  width: 80px;
+  height: 4px;
+  background-color: #007bff;
+  margin: 0 auto;
+  margin-top: 10px;
+  border-radius: 2px;
+}
+
+.profile-image {
+  max-width: 100%;
+  border-radius: 50%;
+  border: 5px solid #007bff;
+}
+
+.skill-list {
+  list-style-type: disc;
+  padding-left: 20px;
+}
+
+.skill-list li {
+  margin-bottom: 10px;
+  font-size: 1rem;
+  color: #333;
+}
+
+.contact-info .btn {
+  font-size: 1rem;
+  padding: 10px 20px;
+}
+
+.btn-outline-primary {
+  border-color: #007bff;
+  color: #007bff;
+}
+
+.btn-outline-primary:hover {
+  background-color: #007bff;
+  color: white;
+}

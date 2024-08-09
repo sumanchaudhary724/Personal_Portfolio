@@ -1,25 +1,34 @@
 import React from "react";
 import { MdEmail } from "react-icons/md";
 import { BsLinkedin } from "react-icons/bs";
-import profileImage from "../assets/images/profile-1.jpg";
+import profileImage from "../assets/images/profile-1.jpeg";
+import "../AboutMe.css";
+
+const skills = [
+  "Proficient in technical support methodologies including Remote Desk Support, Troubleshooting, and Active Directory management.",
+  "Experienced in installing, configuring, and maintaining hardware, software, and network equipment to meet client requirements.",
+  "Skilled in cloud technologies such as Office 365, Microsoft Azure, AWS, and backup solutions including Windows Backup and Office365 Backup.",
+  "Knowledgeable in networking protocols including DHCP, DNS, TCP/IP, as well as router and switch configurations.",
+  "Familiarity with ticketing systems such as OS Ticketing, Zendesk, Freshdesk, and ServiceNow.",
+];
 
 export const AboutMe = () => {
   return (
-    <section id="about-me" className="container mt-3 py-5">
-      <div className="title">
-        <span>About Me</span>
+    <section id="about-me" className="container mt-5 py-5 about-me-section">
+      <div className="title text-center mb-4">
+        <h2>About Me</h2>
+        <div className="title-underline"></div>
       </div>
-      <div className="row">
-        <div className="col-md-5 mb-5">
+      <div className="row align-items-center">
+        <div className="col-md-5 mb-5 text-center">
           <img
             src={profileImage}
             alt="Profile"
-            height="400px"
-            className="profile-image"
+            className="profile-image img-fluid rounded-circle shadow"
           />
         </div>
         <div className="col-md-7">
-          <h3>Hello, I'm Suman.</h3>
+          <h3 className="mb-3">Hello, I'm Suman.</h3>
           <p>
             With over 2 years of dedicated experience as an IT Support
             Specialist, I am committed to delivering outstanding technical
@@ -40,28 +49,10 @@ export const AboutMe = () => {
             organizational goals.
           </p>
           <p>Some key skills I possess include:</p>
-          <ul>
-            <li>
-              Proficient in technical support methodologies including Remote
-              Desk Support, Troubleshooting, and Active Directory management.
-            </li>
-            <li>
-              Experienced in installing, configuring, and maintaining hardware,
-              software, and network equipment to meet client requirements.
-            </li>
-            <li>
-              Skilled in cloud technologies such as Office 365, Microsoft Azure,
-              AWS, and backup solutions including Windows Backup and Office365
-              Backup.
-            </li>
-            <li>
-              Knowledgeable in networking protocols including DHCP, DNS, TCP/IP,
-              as well as router and switch configurations.
-            </li>
-            <li>
-              Familiarity with ticketing systems such as OS Ticketing, Zendesk,
-              Freshdesk, and ServiceNow.
-            </li>
+          <ul className="skill-list">
+            {skills.map((skill, index) => (
+              <li key={index}>{skill}</li>
+            ))}
           </ul>
 
           <p>
@@ -72,25 +63,21 @@ export const AboutMe = () => {
             opportunity to discuss how my experience and qualifications align
             with your organization's needs.
           </p>
-          <div className="contact-info">
-            <p>
-              <a
-                href={`mailto:sumanchaudhary724@gmail.com`}
-                style={{ textDecoration: "none", color: "inherit" }}
-              >
-                <MdEmail /> sumanchaudhary724@gmail.com
-              </a>
-            </p>
-            <p>
-              <a
-                href="https://www.linkedin.com/in/sumanchaudhary724/"
-                target="_blank"
-                rel="noopener noreferrer"
-                style={{ textDecoration: "none", color: "inherit" }}
-              >
-                <BsLinkedin /> https://www.linkedin.com/in/sumanchaudhary724/
-              </a>
-            </p>
+          <div className="contact-info mt-4">
+            <a
+              href="mailto:sumanchaudhary724@gmail.com"
+              className="btn btn-primary me-3"
+            >
+              <MdEmail className="me-2" /> Email Me
+            </a>
+            <a
+              href="https://www.linkedin.com/in/sumanchaudhary724/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="btn btn-outline-primary"
+            >
+              <BsLinkedin className="me-2" /> LinkedIn Profile
+            </a>
           </div>
         </div>
       </div>
