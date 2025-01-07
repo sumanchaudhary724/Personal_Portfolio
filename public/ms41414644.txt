@@ -1,0 +1,5 @@
+﻿{
+  "Description": "Domain ownership verification file for Microsoft 365 - place in the website root",
+  "Domain": "sumanit.online",
+  "Id": "8142e921-cf58-468b-b47e-a95895f9be71"
+}
